@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_new_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Question" />
+
+    <EditText
+        android:id="@+id/edit_new_choice_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choice A" />
+
+    <EditText
+        android:id="@+id/edit_new_choice_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choice B" />
+
+    <EditText
+        android:id="@+id/edit_new_choice_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choice C" />
+
+    <EditText
+        android:id="@+id/edit_new_choice_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choice D" />
+
+    <EditText
+        android:id="@+id/edit_new_correct_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct Answer (A, B, C, D)" />
+
+</LinearLayout>
